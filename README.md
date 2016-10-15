@@ -145,9 +145,9 @@ class User extends ActiveRecord implements IdentityInterface, AuthRoleModelInter
 }
 ```
 
-### Handling role events
+### Handling role events (optional)
 
-If you want update your storage on system events add your event handlers:
+If you want to update your storage on system events just add your event handlers:
 
 ```php
 class User extends ActiveRecord implements IdentityInterface, AuthRoleModelInterface
@@ -176,7 +176,7 @@ class User extends ActiveRecord implements IdentityInterface, AuthRoleModelInter
 }
 ```
 
-and register handlers on events:
+and register the handlers:
 
 ```php
 'authManager' => [
