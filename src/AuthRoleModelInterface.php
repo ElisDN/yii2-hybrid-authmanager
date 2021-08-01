@@ -13,7 +13,7 @@ interface AuthRoleModelInterface
 {
     /**
      * @param mixed $id
-     * @return AuthRoleModelInterface
+     * @return null|AuthRoleModelInterface
      */
     public static function findAuthRoleIdentity($id);
 
